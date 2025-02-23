@@ -1,0 +1,77 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1240px;
+  margin: auto;
+  padding: 5dvh;
+  position: relative;
+}
+nav span {
+  color: #e5e7eb;
+  font-family: "Poppins", serif;
+  font-size: 2.5rem;
+}
+nav .nav-icons {
+  z-index: 8;
+}
+nav .nav-icons i {
+  margin-left: 2dvh;
+}
+
+.container {
+  display: flex;
+  max-width: 1240px;
+  margin: auto;
+  position: relative;
+}
+.container div {
+  flex: 1;
+}
+.container .text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5dvh;
+  position: absolute;
+  top: 2dvh;
+  left: 22dvh;
+  z-index: 12;
+}
+.container .text .intro {
+  font-size: 5.2rem;
+  font-weight: 600;
+  color: #fff;
+}
+.container .text .intro span {
+  border-bottom: 3px solid rgb(78, 225, 160);
+}
+.container .text .about {
+  margin-top: 5dvh;
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+.container .text a {
+  margin-top: 4dvh;
+}
+.container .text a span {
+  border-bottom: 2px solid rgb(78, 225, 160);
+}
+.container .rings {
+  display: flex;
+}
+.container .rings .img-rings {
+  width: 80dvh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  left: -30dvh;
+}
+.container .guy-picture {
+  width: 70dvh;
+  height: 100dvh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: -20dvh;
+  right: 2dvh;
+}/*# sourceMappingURL=header.component.css.map */
