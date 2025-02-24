@@ -10,6 +10,7 @@ main {
         padding-top: 15dvh;
         max-width: 1240px;
         margin: auto;
+        background-color: $primaryBlack;
 
         h2 {
             font-size: 4rem;
@@ -27,6 +28,7 @@ main {
         display: grid;
         grid-template-columns: 1fr;
         gap: 5dvh;
+        background-color: $primaryBlack;
 
         .card-technology {
             font-size: 4rem;

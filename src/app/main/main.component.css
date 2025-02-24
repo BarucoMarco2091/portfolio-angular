@@ -8,6 +8,7 @@ main .projects {
   padding-top: 15dvh;
   max-width: 1240px;
   margin: auto;
+  background-color: #151515;
 }
 main .projects h2 {
   font-size: 4rem;
@@ -22,6 +23,7 @@ main .grid-container {
   display: grid;
   grid-template-columns: 1fr;
   gap: 5dvh;
+  background-color: #151515;
 }
 main .grid-container .card-technology {
   font-size: 4rem;

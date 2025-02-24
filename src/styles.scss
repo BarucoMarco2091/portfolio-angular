@@ -7,6 +7,7 @@ $primaryWhite: #e5e7eb;
 $white: #fff;
 $secondaryBlack: #0000;
 $grey:  rgb(217, 217, 217);
+$primaryGrey: rgb(36, 36, 36);
 $green: rgb(78, 225, 160);
 
 * {
@@ -17,17 +18,16 @@ $green: rgb(78, 225, 160);
 }
 
 header {
+    background-color: $primaryBlack;
     width: 100%;
     height: 100dvh;
 }
 
 body {
     width: 100%;
-    
     position: relative;
     overflow-x: hidden;
     outline: none;
-    background-color: $primaryBlack;
 }
 
 h1, h2 {

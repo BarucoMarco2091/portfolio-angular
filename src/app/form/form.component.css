@@ -1,0 +1,70 @@
+div {
+  background-color: rgb(36, 36, 36);
+  padding-top: 2dvh;
+}
+div .form-container {
+  display: flex;
+  flex-direction: row;
+  max-width: 1240px;
+  margin: auto;
+}
+div .form-container .form-text {
+  flex: 1;
+}
+div .form-container .form-text h3 {
+  color: #e5e7eb;
+  font-size: 3rem;
+}
+div .form-container .form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+div .form-container .form .name, div .form-container .form .email, div .form-container .form .message {
+  display: flex;
+}
+div .form-container .form .name p, div .form-container .form .email p, div .form-container .form .message p {
+  margin-top: 2dvh;
+  margin-right: 2dvh;
+  color: rgb(217, 217, 217);
+  text-align: center;
+}
+div .form-container .form .name #text, div .form-container .form .name #email, div .form-container .form .name #msg, div .form-container .form .email #text, div .form-container .form .email #email, div .form-container .form .email #msg, div .form-container .form .message #text, div .form-container .form .message #email, div .form-container .form .message #msg {
+  width: 50dvh;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  font-family: "Poppins", serif;
+}
+div .form-container .form .name #text, div .form-container .form .name #email, div .form-container .form .email #text, div .form-container .form .email #email, div .form-container .form .message #text, div .form-container .form .message #email {
+  height: 10dvh;
+}
+div .form-container .form .name #msg, div .form-container .form .email #msg, div .form-container .form .message #msg {
+  height: 30dvh;
+}
+div .form-container .form .send-msg-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div .form-container .form .send-msg-btn .submit-btn {
+  margin-top: 3dvh;
+  color: #e5e7eb;
+  background-color: transparent;
+  border: none;
+  transition: color 0.8s, border-bottom 0.8s;
+}
+div .form-container .form .send-msg-btn .submit-btn:hover {
+  color: rgb(78, 225, 160);
+  border-bottom: 2px solid rgb(78, 225, 160);
+}
+
+@media (width >= 768px) {
+  .form-container {
+    display: flex;
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=form.component.css.map */
