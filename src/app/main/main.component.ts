@@ -17,6 +17,6 @@ export class MainComponent {
     { image: '/thumbnail-project-3-large.webp', name: 'TODO WEB APP', tech: 'HTML, CSS, JavaScript'},
     { image: '/thumbnail-project-4-large.webp', name: 'ENTERTAINMENT WEB APP', tech: 'HTML, CSS, JavaScript'},
     { image: '/thumbnail-project-5-large.webp', name: 'MEMORY GAME', tech: 'HTML, CSS, JavaScript'},
-    { image: '/thumbnail-project-6-large.webp', name: 'ART GALLERY SHOWCASE', tech: 'HTML, CSS, JavaScriptgi'},
+    { image: '/thumbnail-project-6-large.webp', name: 'ART GALLERY SHOWCASE', tech: 'HTML, CSS, JavaScript'},
   ]
 }
