@@ -1,0 +1,66 @@
+main {
+  border-top: 1px solid #fff;
+  max-width: 1240px;
+  margin: auto;
+  padding-top: 10dvh;
+}
+main .projects {
+  padding-top: 15dvh;
+  max-width: 1240px;
+  margin: auto;
+}
+main .projects h2 {
+  font-size: 4rem;
+  margin-bottom: 5dvh;
+}
+main .info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+main .grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 5dvh;
+}
+main .grid-container .card-technology {
+  font-size: 4rem;
+  font-weight: 500;
+  color: #fff;
+}
+main .grid-container .card-experience {
+  font-size: 1.5rem;
+}
+main .grid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+@media (width >= 768px) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 5dvh;
+  }
+  .grid .card {
+    text-align: center;
+  }
+  .grid .card .card-title {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #fff;
+  }
+  .grid .card .card-tech {
+    font-size: 1.3rem;
+  }
+  .grid div a {
+    margin-right: 2dvh;
+    border-bottom: 2px solid rgb(78, 225, 160);
+  }
+}
+@media (width >= 768px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+}/*# sourceMappingURL=main.component.css.map */

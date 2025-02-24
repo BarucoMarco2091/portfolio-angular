@@ -1,0 +1,90 @@
+@import '../header/variables.scss';
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1240px;
+    margin: auto;
+    padding: 5dvh;
+    position: relative;
+
+    span {
+        color: $primaryWhite;
+        font-family: 'Poppins', serif;
+        font-size: 2.5rem;
+    }
+
+    .nav-icons {
+        z-index: 8;
+
+        i {
+            margin-left: 2dvh;
+        }
+    }
+}
+
+.container {
+    display: flex;
+    max-width: 1240px;
+    margin: auto;
+    position: relative;
+
+    div {
+        flex: 1;
+    }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5dvh;
+        position: absolute;
+        top: 2dvh;
+        left: 22dvh;
+        z-index: 12;
+
+        .intro {
+            font-size: 5.2rem;
+            font-weight: 600;
+            color: $white;
+
+            span {
+                border-bottom: 3px solid $green;
+            }
+        }
+
+        .about {
+            margin-top: 5dvh;
+            font-size: 1.3rem;
+            line-height: 2rem;
+        }
+
+        a {
+            margin-top: 4dvh;
+
+            span {
+                border-bottom: 2px solid $green;
+            }
+        }
+    }
+
+    .rings {
+        display: flex;
+
+        .img-rings {
+            width: 80dvh;
+            object-fit: cover;
+            position: absolute;
+            left: -30dvh;
+        }
+    }
+
+    .guy-picture {
+        width: 70dvh;
+        height: 100dvh;
+        object-fit: cover;
+        position: absolute;
+        top: -20dvh;
+        right: 2dvh;
+    }
+}

@@ -1,0 +1,44 @@
+<main>
+    <div class="grid-container">
+        <div class="card">
+            <p class="card-technology">HTML</p>
+            <P class="card-experience">4 Years Experience</P>
+        </div>
+        <div class="card">
+            <p class="card-technology">CSS</p>
+            <P class="card-experience">4 Years Experience</P>
+        </div>
+        <div class="card">
+            <p class="card-technology">JavaScript</p>
+            <P class="card-experience">4 Years Experience</P>
+        </div>
+        <div class="card">
+            <p class="card-technology">Accessibility</p>
+            <P class="card-experience">4 Years Experience</P>
+        </div>
+        <div class="card">
+            <p class="card-technology">React</p>
+            <P class="card-experience">3 Years Experience</P>
+        </div>
+        <div class="card">
+            <p class="card-technology">Sass</p>
+            <P class="card-experience">3 Years Experience</P>
+        </div>
+    </div>
+    <div class="projects">
+        <div class="info">
+            <h2>Projects</h2>
+        </div>
+        <div class="grid">
+            <div *ngFor="let item of menuItems" class="card">
+                <img [src]="item.image" [alt]="item.name">
+                <p class="card-title">{{ item.name }}</p>
+                <p class="card-tech">{{ item.tech }}</p>
+                <div>
+                    <a href="#">PROJECT</a>
+                    <a href="#">CODE</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
