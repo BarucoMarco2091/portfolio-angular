@@ -65,4 +65,25 @@ main .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr) !important;
   }
+}
+@media (width <= 768px) {
+  .card-technology {
+    font-size: 1.5rem !important;
+    text-align: center;
+  }
+  .card-experience {
+    font-size: 1rem !important;
+    text-align: center;
+  }
+}
+@media (width <= 768px) {
+  .grid {
+    margin: 1dvh 1dvh !important;
+  }
+  .grid .card {
+    text-align: center;
+  }
+  .grid .card a {
+    margin-right: 2dvh;
+  }
 }/*# sourceMappingURL=main.component.css.map */

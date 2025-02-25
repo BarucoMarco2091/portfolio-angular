@@ -2,7 +2,7 @@
 
 nav {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     max-width: 1240px;
     margin: auto;
@@ -26,6 +26,7 @@ nav {
 
 .container {
     display: flex;
+    flex-direction: column;
     max-width: 1240px;
     margin: auto;
     position: relative;
@@ -86,5 +87,52 @@ nav {
         position: absolute;
         top: -20dvh;
         right: 2dvh;
+    }
+}
+
+@media (width >= 768px) {
+    nav {
+        display: flex;
+        flex-direction: row !important;
+    }
+}
+
+@media (width >= 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (width <= 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+
+        .rings {
+            display: flex;
+
+            .img-rings {
+                position: static;
+            }
+        }
+
+        .text {
+            margin: 0 auto !important;
+            justify-content: center !important;
+            align-items: center !important;
+            text-align: center;
+            position: static;
+
+            .intro {
+                font-size: 1.5rem !important;
+            }
+        }
+    }
+}
+
+@media (width <= 768px) {
+    .guy-picture {
+        display: none;
     }
 }

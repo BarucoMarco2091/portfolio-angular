@@ -3,19 +3,30 @@
 div {
     background-color: $primaryGrey;
     padding-top: 2dvh;
+    margin-top: 4dvh;
 
     .form-container {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         max-width: 1240px;
         margin: auto;
+        border-bottom: 1px solid $primaryWhite;
 
         .form-text {
             flex: 1;
+            position: relative;
 
             h3 {
                 color: $primaryWhite;
-                font-size: 3rem;
+                font-size: 4rem;
+                font-weight: 600;
+                font-family: 'Poppins', serif;
+            }
+
+            img {
+                position: absolute;
+                left: -60dvh;
+                margin-top: 10dvh;
             }
         }
 
@@ -61,6 +72,7 @@ div {
                 
                 .submit-btn {
                     margin-top: 3dvh;
+                    margin-bottom: 3dvh;
                     color: $primaryWhite;
                     background-color: transparent;
                     border: none;
@@ -76,9 +88,23 @@ div {
     }
 }
 
-@media (width >= 768px) {
+@media (width <= 768px) {
     .form-container {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        margin: 1dvh 1dvh !important;
+        text-align: center;
+
+        h3 {
+            font-size: 2rem !important;
+        }
+
+        img {
+            display: none;
+        }
+
+        #text, #email, #msg {
+            width: 90% !important;
+        }
     }
 }
