@@ -12,18 +12,12 @@ div .form-container {
 }
 div .form-container .form-text {
   flex: 1;
-  position: relative;
 }
 div .form-container .form-text h3 {
   color: #e5e7eb;
   font-size: 4rem;
   font-weight: 600;
   font-family: "Poppins", serif;
-}
-div .form-container .form-text img {
-  position: absolute;
-  left: -60dvh;
-  margin-top: 10dvh;
 }
 div .form-container .form {
   display: flex;
@@ -82,9 +76,6 @@ div .form-container .form .send-msg-btn .submit-btn:hover {
   }
   .form-container h3 {
     font-size: 2rem !important;
-  }
-  .form-container img {
-    display: none;
   }
   .form-container #text, .form-container #email, .form-container #msg {
     width: 90% !important;

@@ -14,19 +14,12 @@ div {
 
         .form-text {
             flex: 1;
-            position: relative;
 
             h3 {
                 color: $primaryWhite;
                 font-size: 4rem;
                 font-weight: 600;
                 font-family: 'Poppins', serif;
-            }
-
-            img {
-                position: absolute;
-                left: -60dvh;
-                margin-top: 10dvh;
             }
         }
 
@@ -97,10 +90,6 @@ div {
 
         h3 {
             font-size: 2rem !important;
-        }
-
-        img {
-            display: none;
         }
 
         #text, #email, #msg {
