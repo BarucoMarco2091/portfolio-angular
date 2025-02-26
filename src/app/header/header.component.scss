@@ -90,21 +90,28 @@ nav {
     }
 }
 
-@media (width >= 768px) {
+@media (width >=768px) {
     nav {
         display: flex;
         flex-direction: row !important;
     }
 }
 
-@media (width >= 768px) {
+@media (width >=768px) {
     .container {
         display: flex;
         flex-direction: column;
     }
 }
 
-@media (width <= 768px) {
+@media (width <=1024px) {
+    nav {
+        padding: 2dvh;
+        text-align: center;
+    }
+}
+
+@media (width <=1024px) {
     .container {
         display: flex;
         flex-direction: column;
@@ -114,6 +121,9 @@ nav {
 
             .img-rings {
                 position: static;
+                width: 50%;
+                height: 50%;
+                margin: 0 auto;
             }
         }
 
@@ -127,12 +137,24 @@ nav {
             .intro {
                 font-size: 1.5rem !important;
             }
+
+            a {
+                margin: 1dvh 1dvh;
+            }
         }
     }
 }
 
-@media (width <= 768px) {
-    .guy-picture {
-        display: none;
+@media (width <=1024px) {
+    .img {
+        display: flex !important;
+
+        .guy-picture {
+            max-width: 100%;
+           height: 40dvh !important;
+           object-fit: cover !important;
+            position: static !important;
+            margin: 0 auto !important;
+        }
     }
 }

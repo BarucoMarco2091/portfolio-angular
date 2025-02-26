@@ -24,6 +24,7 @@ main .grid-container {
   grid-template-columns: 1fr;
   gap: 5dvh;
   background-color: #151515;
+  text-align: center;
 }
 main .grid-container .card-technology {
   font-size: 4rem;
@@ -60,7 +61,7 @@ main .grid {
     border-bottom: 2px solid rgb(78, 225, 160);
   }
 }
-@media (width >= 768px) {
+@media (width >= 1024px) {
   .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr) !important;
@@ -79,6 +80,7 @@ main .grid {
 @media (width <= 768px) {
   .grid {
     margin: 1dvh 1dvh !important;
+    padding: 1dvh 1dvh;
   }
   .grid .card {
     text-align: center;

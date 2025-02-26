@@ -72,6 +72,7 @@ div .form-container .form .send-msg-btn .submit-btn:hover {
     display: flex;
     flex-direction: row;
     margin: 1dvh 1dvh !important;
+    padding: 1dvh 1dvh;
     text-align: center;
   }
   .form-container h3 {
