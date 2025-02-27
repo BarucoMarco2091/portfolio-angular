@@ -129,7 +129,7 @@ nav .nav-icons i {
   }
   .img .guy-picture {
     max-width: 100%;
-    height: 40dvh !important;
+    height: 30dvh !important;
     -o-object-fit: cover !important;
        object-fit: cover !important;
     position: static !important;
